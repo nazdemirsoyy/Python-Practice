@@ -52,4 +52,26 @@ beatles.insert(0,"Ringo Starr")
 print(beatles)
 
  
+# Find the uniqiue elems in a list and remove
+list3 = [1, 2, 2, 3, 4, 4, 5, 6, 6]
+
+# Initialize an empty list to store the unique elements
+unique_elems = []
+
+# Loop through each element in the list
+for elem in list3:
+    # Check if the element is not already in the unique_elems list
+    if elem not in unique_elems:
+        # If it's not, add it to the unique_elems list
+        unique_elems.append(elem)
+
+# Loop through each unique element in the list
+for elem in unique_elems:
+    # Remove the element from the original list
+    list3.remove(elem)
+
+# Print the updated list without the unique elements
+print(list3)
+
+
 
