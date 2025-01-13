@@ -15,3 +15,4 @@ an = AnimalParty()
 an.party()
 an.party()
 an.party()
+
